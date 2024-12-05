@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ccc url('/img/sesi-senai-fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.cabecalho {
+    gap: 20px;
+    padding: 10px;
+    background: #eaeaea;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho:hover, a:hover{
+    color: #ccc;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    padding: 20px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.container h1 {
+    color: red;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.container .logo {
+    margin: 20px 0;
+    max-width: 150px;
+}
+
+.container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container button {
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.container button:hover {
+    background: darkred;
+}
+
+.links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.links a {
+    color: red;
+    font-weight: bold;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eaeaea;
+    padding: 10px 30px;
+    font-size: 12px;
+    color: #555;
+}
+
+.rodape .copyright {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.rodape .links-footer {
+    text-align: right;
+}
+
+.rodape .links-footer a {
+    color: #000;
+    font-weight: bold;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.rodape .links-footer a:hover {
+    color: red;
+}
+
