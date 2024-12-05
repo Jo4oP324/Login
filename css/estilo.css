@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #ccc url('/img/sesi-senai-fundo.jpg') no-repeat center center fixed;
+    background: #ccc url('../img/sesi-senai-fundo.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
 }
